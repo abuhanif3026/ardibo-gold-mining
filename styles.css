@@ -1,0 +1,132 @@
+/* Basic Styling for the Page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f0f0f0;
+      }
+      .login-container {
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        text-align: center;
+      }
+      input {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      button {
+        background: #007BFF;
+        color: #fff;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      button:hover {
+        background: #0056b3;
+      }
+      a {
+        display: block;
+        margin-top: 10px;
+        color: #007BFF;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+}
+
+/* Header Styling */
+header {
+    background-color: #008B8B;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo-img {
+    width: 100px;
+    height: auto;
+    background-image: -moz-linear-gradient(.logo-img);
+    width: 2oopx;
+    padding: 5px;
+    ::view-transition::backdrop
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* Navigation Styling */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hyperlink Button Styling */
+.button-link {
+    display: inline-block;
+    background-color: #008B8B;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.button-link:hover {
+    background-color: #006F6F;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #008B8B;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
